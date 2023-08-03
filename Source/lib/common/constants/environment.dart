@@ -1,0 +1,13 @@
+// final String baseUrl = "http://127.0.0.1:8100";
+// final String baseUrl = "http://10.97.5.38:8100";
+// final String baseUrl = "http://154.53.53.149";
+final String baseUrl = "http://192.168.115.65";
+// final String baseUrl = "http://192.168.8.113:8080";
+// final String baseUrl = "http://34.81.120.235";
+final String uploadFolderUrl = "$baseUrl/uploads";
+final String patientUrl = "$uploadFolderUrl/patients";
+final String bodyPartUrl = "$uploadFolderUrl/bodyparts";
+final String templateUrl = "$uploadFolderUrl/templates";
+final String patientImgUrl = "$baseUrl/photos";
+String authString = "";
+String userName = "";
